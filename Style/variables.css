@@ -1,0 +1,59 @@
+/* By ONANA vital */
+
+/* Design module */
+
+@import url("./responsive.css");
+@import url("./style.css");
+
+:root
+{
+	--white: #f1f1f1;
+	--primary-color: #ff6347;
+	--bg-color: #000000fa;
+	--secondary-color: #f85639;
+	--radius: 50px;
+	--text-size: 18.5px;
+	--title: 35px;
+	--primary-family: Montserrat;
+	--btn-dark: #0f0f0fbe;
+	--transition: all 0.6s ease-in 0s;
+}
+
+/* Button */
+.btn
+{
+	background-color: var(--primary-color);
+	padding: 0.8em 1em;
+	border-radius: 50px;
+	color: var(--white);
+	transition: var(--transition);
+}
+.btn:hover
+{
+	background: var(--secondary-color);
+	color: var(--bg-color);
+}
+.btn-dark
+{
+	background-color: var(--bg-color);
+	padding: 1em 1.6em;
+	border-radius: 50px;
+	color: var(--white);
+	margin-right: 15px;
+	margin-top: 10px;
+	transition: var(--transition);
+}
+.btn-dark:hover
+{
+	background-color: var(--primary-color);
+}
+
+.btnn {
+ transition: 0.5s;
+}
+
+.btnn:hover {
+	background: var(--secondary-color);
+	padding: 12px;
+	border-radius: 30px;
+}
